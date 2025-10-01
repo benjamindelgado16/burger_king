@@ -89,3 +89,21 @@ body {
 .Bienvenido p {
     color: #fff;
 }
+
+.Detalles {
+    display: flex;
+    align-items: center;
+}
+
+.deta {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.i {
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    
+}
