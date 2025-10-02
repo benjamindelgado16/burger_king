@@ -9,10 +9,9 @@ body {
 }
 
 .navbar {
+    width: 100%;
     background-color: #F5EBDC;
-    border-bottom: solid #F1E7D8 2px;
     position: fixed;
-   
 }
 
 .nav-container {
@@ -22,8 +21,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
-
+    border-bottom: solid #F1E7D8 2px;
 }
 
 .links {
@@ -72,24 +70,25 @@ body {
 
 .headbar {
     background-color: #F5EBDC;
-    position: fixed;
+
 }
 
 .head-container {
     width: 100%;
     display: flex;
     justify-content: end;
-    
+
     margin-right: 10px;
 }
 
 .miBK {
+    padding-top: 80px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: #502314;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
-    margin-top: 100px;
+
 }
 
 .Bienvenido p {
@@ -122,6 +121,7 @@ body {
 .container {
     width: 100%;
     display: flex;
+    gap: 5px;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -132,13 +132,13 @@ body {
 .card {
     margin-top: 50px;
     background-color: #fff;
-    width: 700px;
+    width: 600px;
     height: 500px;
     border-radius: 20px;
 }
 
 .card img {
-    width: 700px;
+    width: 600px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
