@@ -11,6 +11,7 @@ body {
 .navbar {
     background-color: #F5EBDC;
     border-bottom: solid #F1E7D8 2px;
+
 }
 
 .nav-container {
@@ -20,6 +21,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+
 }
 
 .links {
@@ -68,6 +72,7 @@ body {
 
 .headbar {
     background-color: #F5EBDC;
+
 }
 
 .head-container {
@@ -84,6 +89,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #502314;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
 }
 
 .Bienvenido p {
@@ -96,14 +102,49 @@ body {
 }
 
 .deta {
-    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
     display: flex;
     align-items: center;
+    gap: 10px;
+    background-color: #502314;
+    border: #fff 1px solid;
+    padding: 2px;
 }
 
 .i {
     width: 20px;
     height: 20px;
     border-radius: 100px;
-    
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.row {}
+
+.card {
+    margin-top: 50px;
+    background-color: #fff;
+    width: 700px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.card img {
+    width: 700px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.Pide {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
 }
