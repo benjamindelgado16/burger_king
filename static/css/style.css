@@ -11,7 +11,8 @@ body {
 .navbar {
     background-color: #F5EBDC;
     border-bottom: solid #F1E7D8 2px;
-
+    position: fixed;
+   
 }
 
 .nav-container {
@@ -21,8 +22,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    top: 0;
+   
 
 }
 
@@ -72,24 +72,24 @@ body {
 
 .headbar {
     background-color: #F5EBDC;
-
+    position: fixed;
 }
 
 .head-container {
     width: 100%;
     display: flex;
     justify-content: end;
-    padding: 5px;
+    
     margin-right: 10px;
 }
 
 .miBK {
     width: 100%;
-    padding: 5px;
     display: flex;
     justify-content: space-between;
     background-color: #502314;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+    margin-top: 100px;
 }
 
 .Bienvenido p {
@@ -133,7 +133,7 @@ body {
     margin-top: 50px;
     background-color: #fff;
     width: 700px;
-    height: 450px;
+    height: 500px;
     border-radius: 20px;
 }
 
