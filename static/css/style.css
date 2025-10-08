@@ -130,11 +130,13 @@ body {
 
 
 .card {
+    height: 500px;
     background-color: #fff;
     width: 49%;
-    height: 400px;
     border-radius: 20px;
 }
+
+
 
 .card img {
     width: 100%;
@@ -142,18 +144,26 @@ body {
     border-top-left-radius: 20px;
 }
 
-.card-5 {
-    background-color: #fff;
-    width: 45%;
-    height: 400px;
-    border-radius: 20px;
-
+.parrafo {
+    width: 60%;
+    margin: 20px;
 }
 
-.card-5 img {
-    width: 100%;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+.botones {
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+}
+
+.boton {
+    background-color: #FBE9E5;
+    border-radius: 20px;
+    padding: 5px;
+    border: solid 1px #D62300;
+    color: #D62300;
+    height: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .Pide {
