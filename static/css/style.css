@@ -195,34 +195,39 @@ footer {
 
 .final {
     width: 80%;
-    padding: 10px;
+    padding: 20px;
     margin: 0 auto;
 }
 
 .preguntas {
+    padding: 20px;
     display: flex;
     flex-direction: column;
     border-bottom: solid 1.5px #A88754;
 }
 
 .preguntas a {
-    
     font-size: 20px;
     text-decoration: none;
     color: #A88754;
 }
 
 .sociales {
-    padding: 10px;
+    color: #A88754;
+    padding: 20px;
     margin-bottom: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border-bottom: solid 1.5px #A88754;
+}
+
+.sociales a {
+    color: #A88754;
 }
 
 
 .cookies {
-    margin-top: 30px;
+    padding: 20px;
     font-size: 20px;
     color: #A88754;
 }
