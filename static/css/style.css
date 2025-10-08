@@ -182,8 +182,28 @@ body {
     width: 40%;
 }
 
+.imagen img {
+    width: 40%;
+    text-align: center;
+}
+
 footer {
     width: 100%;
     margin: 0 auto;
     background-color: #2B0200;
+}
+
+.final {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.preguntas {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1.5px #A88754;
+}
+
+.sociales {
+    margin-top: 10px;
 }
